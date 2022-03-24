@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap.css">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container-fluid" id="main">
+		
+			<div class="navbar navbar-fixed-top">
+				<div class="container-fluid">
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="/"><img src="imagess/vogue_logo.png" alt="Your Logo" height="50px" width="70px"></a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Fashion</a>
+									</li>
+									
+									<li>
+										<a href="#">Clothing</a>
+									</li>
+									
+									<li>
+										<a href="#">Accessories</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li class="dropdown-header">More Services</li>
+									
+									<li>
+										<a href="#">Content Creation</a>
+									</li>
+									
+									<li>
+										<a href="#">Social Media Marketing</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li>
+						</ul>
+						
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+						
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Orders</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			
+			
+			 <div class="carousel slide" id="myCarousel" data-ride="carousel"> 
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h1><b>Women's Magazine</b> </h1>
+							
+						</div><!-- end carousel-caption-->
+						<img src="..//05 - Final Website/imagess/magazine-poland-fashion-vogue_laptop.jpg" alt="cover" style="width:100%;">
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h1>Grand era of Women Fashion</h1>
+							<p>Women’s magazines frequently reflect the changing view of women’s role in society. When women were expected to participate in social and political life, those magazines aimed primarily at women were relatively robust deal, they were inclined to be insipid and humourless.</p>
+						</div>
+						<img src="..//05 - Final Website/imagess/slide2.jpg" alt="coverr" style="width:100%;">
+					</div>
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h1><b>Fashion And Clothing</b></h1>
+							
+						</div><!-- end carousel-caption-->
+						<img src="..//05 - Final Website/imagess/slide3.jpg" alt="coverr" style="width:100%;">
+					</div><!-- end item -->
+					
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+		<!--	<img src="imagess/magazine-poland-fashion-vogue.jpg" class="img-fluid" alt="Responsive image"> -->
+			<br><br>
+			<div class="container-fluid my-class padding">
+				<div class="row welcome">
+					<div class="col-sm-12 col-lg-6 ">
+						<hr>
+						<h1><b> We dwelling elegance do shutters appetite yourself diverted.</b>
+
+						</h1>
+
+					</div>
+					<br><br>
+					<hr>
+				</div>
+			</div>
+				<br><br>
+			<div class="container">
+				<div class="row padding" id="moreInfo">
+					<div class="col-sm-6 padding">
+					<h3><b>
+						Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes
+						.You day real less till dear read.
+
+					</b>
+					</h3>
+					</div>
+				
+					<div class="col-sm-6 padding">
+					<h4>
+						Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing . Law others theirs passed but wishes. You day real less till dear read.
+						<br><br>
+						Oh feel if up tp till like. He an thing rapid these after going drawn or.Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye.
+
+					</h4>
+					</div>
+					<br><br>
+					<hr>
+				</div>
+			</div>
+				<br><br>
+				<div class="container" id="main">
+					<div class="row padding">
+						<div class="col-sm-12 col-lg-6 ">
+							
+							<h2><b> We dwelling elegance do shutters appetite yourself diverted.</b>
+							</h2>
+							<br><br>
+						</div>
+								<br><br>
+							<div class="col-sm-12 col-lg-9">
+								<p class="lead">Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less till dear read. Considered use dispatched melancholy sympathize discretion led. 
+									<br><br>
+									<br>
+									Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing. He as spoke avoid given downs money on we. Of properly carriage shutters ye as wandered up repeated moreover.
+								</p>
+							</div>	
+	
+						
+					</div>
+				</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-5 ">
+							<img src="..//05 - Final Website/imagess/slide2.jpg"  alt="cover" >
+							</div>
+							<div class="col-lg-7">
+							<img src="..//05 - Final Website/imagess/slide2.jpg" alt="coverr" >
+							</div>
+						
+						</div>
+					</div>
+					
+					<br><br>
+					<div class="container padding">
+						<div class="row ">
+							<div class="col-lg-6 col-sm-12 backg text-center">
+								<p class="lead">
+									
+									<br>
+									<b>Vitae congue mauris rhoncus aenean vel elit scelerisque. Consequat nisl vel pretium lectus quam id leo in vitae. Dictum sit amet justo donec enim diam vulputate. 
+										Sociis natoque penatibus et magnis dis parturient. Molestie ac feugiat sed lectus vestibulum mattis. Vitae congue mauris rhoncus aenean vel elit scelerisque. Consequat nisl vel pretium lectus quam id leo in vitae.  
+										<br><br>
+										<a href="#" class="btn btn-primary">Read More</a>
+									</b>
+									
+								</p>
+								<br>
+							</div>
+							<div class="col-lg-6 col-sm-12 ">
+								<img src="..//05 - Final Website/imagess/wallpaper.jpg" alt="coverr" style="width:100%;">
+							</div>
+						</div>
+					</div>
+
+					<div class="container text-center">
+						<div class="row">
+							<div class="col-sm-12 col-lg-9 text-center ">
+								
+								<h2><b> We’ve seen a lot of efficiency in our workflow processes the way subs work and the way designers work with templates.</b>
+		
+								</h2>
+								
+							</div>
+							<div class="col-sm-12 col-lg-3 text-center ">
+								<br><br>
+								<br><br>
+								
+							<img src="..//05 - Final Website/imagess/round.jpg " class="img-circle" alt="round image" style="width:70%;" >
+								
+							</div>
+						</div>
+							
+						<div class="row">	
+							<div class="col-sm-12 col-lg-8 text-center ">
+								
+									<h3>- James Hawkes, General Manager Operations -
+
+									
+			
+									</h3>
+									
+							</div>
+							<div class="col-sm-12 col-lg-10">
+
+									<br><br>
+									<br><br>
+								
+									<h2 class="text-center"><b> Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. <br><br>
+											<br>
+										In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing. He as spoke avoid given downs money on we. Of properly carriage shutters ye as wandered up repeated moreover.</b>
+			
+									</h2>
+									
+							</div>
+						</div>
+						
+					</div>
+					
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
