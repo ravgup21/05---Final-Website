@@ -205,6 +205,35 @@ hr{
 	text-align: center;
   }
 
+  .social a {
+		font-size: 4.5em;
+		padding: 3rem;
+  }
+  .fa-facebook{
+	  color: #3b5998;
+	  
+  }
+ .fa-twitter{
+	 color:#00aced;
+	 
+ }
 
+ .fa-instagram{
+	color:deeppink;
+ }
+ .fa-youtube{
+	 color:#bb0000;
+ }
+ .fa-facebook:hover,
+ .fa-instagram:hover,
+ .fa-twitter:hover,
+ .fa-youtube:hover{
+	 color: #d5d5d5;
+ }
+ .styling{
+	 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	 font-weight: bold;
+ }
+ 
 
 
