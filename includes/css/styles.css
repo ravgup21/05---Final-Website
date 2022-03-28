@@ -234,6 +234,16 @@ hr{
 	 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	 font-weight: bold;
  }
- 
+ :root {
+	--animate-delay: 2s;
+  }
+  
+  /* All delay classes will take half the time to start */
+  :root {
+	--animate-delay: 0.5s;
+  }
+  .my-element {
+	--animate-repeat: 2;
+  }
 
 
